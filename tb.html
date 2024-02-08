@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box
+        {
+            width: 80%;
+            height: 300px;
+            border: 1px solid black;
+        }
+
+        table
+        {
+            margin: 50px;
+            width: 600px;
+            border-collapse: collapse;
+            box-shadow: 10px 10px 5px gray;
+            border: 1px solid black;
+        }
+
+        table th,tr,td
+        {
+          border: 1px solid black;
+        }
+        td,th
+        {
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        th
+        {
+            font-size: 20px;
+            font-weight: bold;
+            background-color: lightpink;
+            color: white;
+        }
+
+        table tr:hover
+        {
+            background-color: rgb(206, 182, 227);
+            color: white;
+        }
+
+        table tr:nth-child(odd)
+        {
+            background-color: rgb(231, 231, 181);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <table>
+            <th>Sr.no</th>
+            <th>Student Name</th>
+            <th>Percentage</th>
+            <th>Address</th>
+            <tr>
+                <td>101</td>
+                <td>Neha Pawar</td>
+                <td>99</td>
+                <td>Pune</td>
+            </tr>
+
+            <tr>
+                <td>102</td>
+                <td>Mina</td>
+                <td>90</td>
+                <td>Jalgaon</td>
+            </tr>
+
+            <tr>
+                <td>103</td>
+                <td>Ashwini</td>
+                <td>90</td>
+                <td>Sanagli</td>
+            </tr>
+
+            <tr>
+                <td>104</td>
+                <td>Mahek</td>
+                <td>90</td>
+                <td>Solapur</td>
+            </tr>
+
+            <tr>
+                <td>105</td>
+                <td>Shivani</td>
+                <td>90</td>
+                <td>Jaipur</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
